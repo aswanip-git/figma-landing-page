@@ -4,18 +4,18 @@ import AppLogo from "./images/navbar-logo.png";
 
 function Navbar() {
     return (
-        <nav className="App-header">
+        <nav className="app-header">
             <div>
-                <img className="App-logo" src={AppLogo} alt="logo"/>
+                <img className="app-logo" src={AppLogo} alt="logo"/>
             </div>
-            <div className='App-menu'>
-                <a href="#" className="App-links">Home</a>
-                <a href="#" className='App-links'>Product</a>
-                <a href="#" className='App-links'>Contact</a>
-                <a href="#" className='App-links'>About</a>
+            <div className='app-menu'>
+                <a href="#" className="app-links">Home</a>
+                <a href="#" className='app-links'>Product</a>
+                <a href="#" className='app-links'>Contact</a>
+                <a href="#" className='app-links'>About</a>
             </div>
-            <div className="App-login">
-                <a href="#" className="login App-links">Login</a>
+            <div className="app-login">
+                <a href="#" className="login app-links">Login</a>
             </div>
             
         </nav>

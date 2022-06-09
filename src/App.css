@@ -1,14 +1,15 @@
-
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
 }
-.App {
+.app {
   align-items: center;
   background: #181818;
 }
-.App-header {
+.app-header {
   max-width: 1200px;
   height: 120px;
   flex: none;
@@ -19,27 +20,25 @@
   align-items: center;
 }
 
-.App-logo {
-  /* height: 40vmin; */
+.app-logo {
   pointer-events: none;
 }
 
-.App-menu {
+.app-menu {
   align-items: center;
-  padding: 0px;
   gap: 10px;
   color: #fff;
   display: flex;
   justify-content: space-evenly;
 }
 
-.App-links {
+.app-links {
   color: #FFFFFF;
   text-decoration: none;
   padding: 20px;
 }
 
-.App-login {
+.app-login {
   align-items: center;
   padding: 10px 35px;
   border: 1px solid #FFFFFF;
