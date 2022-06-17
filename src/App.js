@@ -1,8 +1,7 @@
 import React from "react"
 import Navbar from "./components/Navbar"
-import SubHeader from "./components/SubHeader"
+import SubHeader from "./components/SubHeader/SubHeader"
 import './App.css';
-import './subHeader.css';
 
 function App() {
     return(
