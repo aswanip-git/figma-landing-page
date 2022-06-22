@@ -11,8 +11,8 @@ function SubHeader() {
                         Work at the speed <span className="subHeadLine"> of thought</span>
                     </p>
                 </div>
-                <div className="subheaderContent">
-                    <p class="content"> 
+                <div className="subHeaderContent">
+                    <p className="content"> 
                         Most calendars are designed for teams. Slate is designed for
                         <span className="subContent">
                           freelancers who want a simple way to plan their schedule.
