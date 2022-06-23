@@ -16,7 +16,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 60px 10px 10px 10px;
+    padding: 60px 25px 10px 25px;
     font-weight: 600;
   }
   .headLine, .subHeadLine{
@@ -29,9 +29,8 @@
     color: #FFFFFF;
   }
 
-  .subHeadLine::before {
-    content: "\a";
-    white-space: pre;
+  .subHeadLine {
+    max-width: 60%;
   }
   
   .subHeaderContent {
@@ -51,9 +50,8 @@
     text-align: center;
   }
   
-  .subContent::before {
-    content: "\a";
-    white-space: pre;
+  .subContent {
+    max-width: 70%;
   }
   
   .subHeaderButton {
@@ -63,7 +61,7 @@
     justify-content: center;
   }
   .subHeaderButton .button {
-    padding: 15px 40px;
+    padding: 15px 15px;
     width: 178px;
     text-align: center;
   }
