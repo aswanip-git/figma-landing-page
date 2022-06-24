@@ -9,7 +9,6 @@ function SubHeader() {
         <div className="subHeaderTitle">
           <p className="headLine">
             <span className="subHeadLine">
-              {" "}
               Work at the speed <br />
               of thought
             </span>
