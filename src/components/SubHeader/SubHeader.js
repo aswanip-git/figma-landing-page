@@ -1,6 +1,6 @@
 import React from "react";
 import "./subHeader.css";
-import Screen from "../images/screens.png";
+import Screen from "../../images/screens.png";
 
 function SubHeader() {
   return (
