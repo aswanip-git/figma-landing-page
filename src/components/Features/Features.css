@@ -1,36 +1,21 @@
 .features {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   padding: 62px 50px;
   gap: 10px;
-}
-
-.featureHead {
   color: #ffffff;
 }
 
 .head {
   text-align: center;
-  font-style: normal;
-  font-weight: 400;
   font-size: 52px;
-  line-height: 62px;
-  letter-spacing: 0.2px;
+  text-transform: uppercase;
 }
 
-.featuresHeader {
-  width: 100%;
-  padding: 10px;
-}
-
-.featureSubHead .featureText {
-  font-style: normal;
-  font-weight: 400;
+.featureSubHead {
   font-size: 20px;
-  line-height: 30px;
   text-align: center;
-  letter-spacing: 0.2px;
 }
 
 .featureSubHead {
@@ -39,37 +24,38 @@
 }
 .featuresFrame {
   display: flex;
-  padding: 50px 130px;
+  width: 90%;
+  margin: auto;
 }
-.frameContent {
+.frameContentDiv {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 40px 20px;
+  width: 50%;
+  padding-top: 35px;
 }
-.contentRow {
+.featureCard {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   padding: 25px;
 }
 
-.rowTitle {
+.featureCardBody {
   display: flex;
   align-items: center;
 }
 
-.title {
-  color: #ffffff;
+.cardTitle {
   padding: 10px;
   width: 65%;
 }
 
-.infinity .title {
+.infinity .cardTitle {
   width: 75%;
 }
 
-.frame {
+.frameImgDiv {
   min-width: 65%;
 }
 
@@ -77,13 +63,9 @@
   width: 100%;
 }
 
-.rowText {
-  font-style: normal;
-  font-weight: 400;
+.cardText {
   font-size: 16px;
   line-height: 24px;
-  letter-spacing: 0.2px;
-  color: #ffffff;
   width: 75%;
 }
 
