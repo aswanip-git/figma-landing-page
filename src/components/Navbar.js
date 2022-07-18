@@ -1,5 +1,7 @@
 import React from "react";
-import AppLogo from "../images/navbar-logo.png";
+import AppLogo from "../images/navbar-logo.svg";
+
+const appLinks = ["Home", "Product", "Contact", "About"];
 
 function Navbar() {
   return (
@@ -8,21 +10,14 @@ function Navbar() {
         <img className="appLogo" src={AppLogo} alt="logo" />
       </div>
       <div className="appMenu">
-        <a href="#" className="appLinks">
-          Home
-        </a>
-        <a href="#" className="appLinks">
-          Product
-        </a>
-        <a href="#" className="appLinks">
-          Contact
-        </a>
-        <a href="#" className="appLinks">
-          About
-        </a>
+        {appLinks.map((Link, id) => (
+          <a href=" " className="appLinks" key={id}>
+            {Link}
+          </a>
+        ))}
       </div>
       <div className="appLogin">
-        <a href="#" className="login appLinks">
+        <a href=" " className="login appLinks">
           Login
         </a>
       </div>
