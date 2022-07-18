@@ -1,0 +1,19 @@
+.contents {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 62px 50px;
+  gap: 10px;
+  color: #ffffff;
+}
+
+.contentsSubHead {
+  font-size: 20px;
+  text-align: center;
+}
+
+.contentCardDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
