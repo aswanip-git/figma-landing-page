@@ -1,0 +1,96 @@
+/* sub header css start */
+.subHeaderText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.subHeader {
+  display: flex;
+  flex-direction: column;
+}
+
+.subHeaderTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px 25px 10px;
+  font-weight: 600;
+}
+.headLine,
+.subHeadLine {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 80px;
+  line-height: 88px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+
+.subHeadLine {
+  max-width: 60%;
+}
+
+.subHeaderContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px;
+}
+
+.subHeaderContent .content {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.subContent {
+  max-width: 70%;
+}
+
+.subHeaderButton {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  justify-content: center;
+}
+.subHeaderButton .button {
+  padding: 15px 15px;
+  width: 178px;
+  text-align: center;
+}
+
+.subHeaderButton .tryForFree {
+  background: #4452fe;
+  border: 1px solid #4452fe;
+  box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 25px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+.subHeaderButton .learnMore {
+  background: #181818;
+  border: 1px solid #ffffff;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 25px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+
+.subHeaderScreens {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+.subHeaderScreens .screen {
+  width: 100%;
+}
