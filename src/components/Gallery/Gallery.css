@@ -26,14 +26,12 @@
 
 .imageRow {
   display: flex;
-  flex-direction: row;
   gap: 30px;
-  padding-bottom: 25px;
+  padding-bottom: 40px;
 }
 
 .seeMoreBtnDiv {
   display: flex;
-  flex-direction: row;
   align-items: center;
 }
 
