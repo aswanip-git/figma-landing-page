@@ -7,7 +7,7 @@ function Contents() {
   return (
     <div className="contents">
       <div className="contentsHead">
-        <p className="head">Contents</p>
+        <p className="contentsTitle">Contents</p>
         <p className="contentsSubHead">
           We focus on ergonomics and meeting you where you work.
           <br />
