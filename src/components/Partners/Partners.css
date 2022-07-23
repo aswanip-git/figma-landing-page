@@ -1,0 +1,50 @@
+.partners {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 90px 60px 50px;
+  gap: 10px;
+  color: #ffffff;
+}
+
+.partnersTitle {
+  text-align: center;
+  font-size: 52px;
+}
+
+.partnersSubHead {
+  font-size: 20px;
+  text-align: center;
+  padding: 15px 15px 50px 15px;
+}
+
+.PartnersDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.partnerLogoRow {
+  display: flex;
+  gap: 75px;
+  padding-bottom: 40px;
+}
+
+.allPartnersBtnDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.allPartners {
+  background: #181818;
+  border: 1px solid #ffffff;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 25px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+  padding: 15px 15px;
+  width: 178px;
+  text-align: center;
+}
