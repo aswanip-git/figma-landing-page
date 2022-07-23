@@ -7,9 +7,15 @@
   color: #ffffff;
 }
 
+.contentsTitle {
+  text-align: center;
+  font-size: 52px;
+}
+
 .contentsSubHead {
   font-size: 20px;
   text-align: center;
+  padding: 15px 15px 30px 15px;
 }
 
 .contentCardDiv {
