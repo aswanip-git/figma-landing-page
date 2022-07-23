@@ -6,7 +6,7 @@ import DesignCard from "../../images/content-design-card.svg";
 function Contents() {
   return (
     <div className="contents">
-      <div className="contentsHead">
+      <div className="contents-head">
         <p className="contentsTitle">Contents</p>
         <p className="contentsSubHead">
           We focus on ergonomics and meeting you where you work.
@@ -16,11 +16,11 @@ function Contents() {
       </div>
 
       <div className="contentCardDiv">
-        <div className="contentCard">
+        <div className="content-card">
           <img alt="card" src={WorkCard} className="contentCardImg" />
         </div>
 
-        <div className="contentCard">
+        <div className="content-card">
           <img alt="card" src={DesignCard} className="contentCardImg" />
         </div>
       </div>
