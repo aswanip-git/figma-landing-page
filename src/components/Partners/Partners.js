@@ -42,7 +42,7 @@ function Partners() {
         </div>
 
         <div className="allPartnersBtnDiv">
-          <button class="allPartners button">All Partners</button>
+          <button className="allPartners button">All Partners</button>
         </div>
       </div>
     </div>
