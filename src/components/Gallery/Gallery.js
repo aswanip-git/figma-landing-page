@@ -49,7 +49,7 @@ function Gallery() {
         </div>
 
         <div className="seeMoreBtnDiv">
-          <button class="seeMore button">See more</button>
+          <button className="seeMore button">See more</button>
         </div>
       </div>
     </div>
