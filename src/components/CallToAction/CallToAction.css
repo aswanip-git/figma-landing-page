@@ -1,0 +1,38 @@
+.callToAction {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1219px;
+  background: #343434;
+  border-radius: 33px;
+  margin: auto;
+  margin-top: 60px;
+}
+
+.callToActionContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 17px 95px;
+  gap: 37px;
+  font-size: 52px;
+  line-height: 62px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+
+.ctaButton .button {
+  padding: 15px 15px;
+  width: 210px;
+  background: #4452fe;
+  border: 1px solid #4452fe;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 25px;
+  letter-spacing: 0.2px;
+}
+
+.callToActionMedia .image {
+  border-bottom-right-radius: 33px;
+}
