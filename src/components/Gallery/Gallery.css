@@ -1,0 +1,53 @@
+.gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 62px 50px;
+  gap: 10px;
+  color: #ffffff;
+}
+
+.galleryTitle {
+  text-align: center;
+  font-size: 52px;
+}
+
+.gallerySubHead {
+  font-size: 20px;
+  text-align: center;
+  padding: 15px 15px 30px 15px;
+}
+
+.galleryDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imageRow {
+  display: flex;
+  gap: 30px;
+  padding-bottom: 40px;
+}
+
+.seeMoreBtnDiv {
+  display: flex;
+  align-items: center;
+}
+
+.galleryImg {
+  border-radius: 15px;
+}
+
+.seeMore {
+  background: #181818;
+  border: 1px solid #ffffff;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 25px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+  padding: 15px 15px;
+  width: 178px;
+  text-align: center;
+}
