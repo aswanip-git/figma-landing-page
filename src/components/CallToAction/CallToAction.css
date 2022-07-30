@@ -2,9 +2,9 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 1219px;
+  width: 80%;
   background: #343434;
-  border-radius: 33px;
+  border-radius: 32px;
   margin: auto;
   margin-top: 60px;
 }
@@ -29,10 +29,9 @@
   color: #ffffff;
   font-weight: 500;
   font-size: 17px;
-  line-height: 25px;
-  letter-spacing: 0.2px;
+  border: none;
 }
 
 .callToActionMedia .image {
-  border-bottom-right-radius: 33px;
+  border-radius: 0 0 32px;
 }
