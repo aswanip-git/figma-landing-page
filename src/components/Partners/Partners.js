@@ -22,22 +22,22 @@ function Partners() {
       <div className="partnersDiv">
         <div class="partnerLogoRow">
           <div>
-            <img alt="app-store" src={AppStore} />
+            <img alt="app-store-logo" src={AppStore} />
           </div>
           <div>
-            <img alt="apiary" src={Apiary} />
+            <img alt="apiary-logo" src={Apiary} />
           </div>
           <div>
-            <img alt="android" src={Android} />
+            <img alt="android-logo" src={Android} />
           </div>
           <div>
-            <img alt="basecamp" src={Bascamp} />
+            <img alt="basecamp-logo" src={Bascamp} />
           </div>
           <div>
-            <img alt="airbnb" src={Airbnb} />
+            <img alt="airbnb-logo" src={Airbnb} />
           </div>
           <div>
-            <img alt="ibm" src={IBM} />
+            <img alt="ibm-logo" src={IBM} />
           </div>
         </div>
 
