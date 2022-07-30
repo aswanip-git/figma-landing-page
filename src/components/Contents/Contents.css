@@ -15,11 +15,10 @@
 .contentsSubHead {
   font-size: 20px;
   text-align: center;
-  padding: 15px 15px 30px 15px;
+  padding: 15px 15px 30px;
 }
 
 .contentCardDiv {
   display: flex;
-  flex-direction: row;
   align-items: center;
 }
